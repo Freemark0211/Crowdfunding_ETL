@@ -1,10 +1,10 @@
 ,category_id,category
-0,subcat1,food trucks
-1,subcat2,rock
-2,subcat3,web
-3,subcat4,plays
-4,subcat5,documentary
-5,subcat6,electric music
-6,subcat7,drama
-7,subcat8,indie rock
-8,subcat9,wearables
+0,cat1,food
+1,cat2,music
+2,cat3,technology
+3,cat4,theater
+4,cat5,film & video
+5,cat6,publishing
+6,cat7,games
+7,cat8,photography
+8,cat9,journalism
