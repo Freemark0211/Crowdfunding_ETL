@@ -2,7 +2,7 @@
 --DROP TABLE IF EXISTS Subcategory;
 --DROP TABLE IF EXISTS Category;
 --DROP TABLE IF EXISTS Contacts;
---DROP TABLE IF EXISTS Crowdfunding;
+--DROP TABLE IF EXISTS Campaign;
 
 
 CREATE TABLE Subcategory (
@@ -22,7 +22,7 @@ CREATE TABLE Contacts (
     "email" varchar(100)   NOT NULL
 );
 
-CREATE TABLE Crowdfunding (
+CREATE TABLE Campaign (
     "cf_id" int PRIMARY KEY,
     "contact_id" int   NOT NULL,
     "company_name" varchar(40)   NOT NULL,
